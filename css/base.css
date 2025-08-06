@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* リセットCSSここから */
+
+/* 
+     全ての要素について、
+     ブラウザにデフォルトで設定されている余白を０にする 
+     border-boxを指定してborderやpaddingを直感的に扱いやすくする
+*/
+*,::before,::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/* リストの先頭の●や数字を消す */
+ul,ol{
+     list-style: none;
+}
+
+/* アンカー要素のデフォルトスタイルをリセット */
+a{
+     /* 下線消す */
+     text-decoration: none;
+
+     /* 親要素の色を使用する */
+     color: inherit;
+}
+
+/* ボタンのデフォルトスタイルをリセット */
+button{
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     outline: none;
+     padding: 0;
+     appearance: none;
+}
+
+/* おまじない */
+img{
+     max-width: 100%;
+}
+
+/* リセットCSSここまで */
+
+
+.w-100{
+     width: 100%;
+}
+
+.w-50{
+     width: 50%;
+}
+
+.u-flex{
+     display: flex;
+}
+
+.u-sb{
+     justify-content: space-between;
+}
+
+.u-gap80{
+     gap: 80px;
+}
+
+main{
+     margin-top: 40px;
+}
+
+h3{
+     font-size: 1.5rem;
+}
+
+h4{
+     font-size: 1.2rem;
+}

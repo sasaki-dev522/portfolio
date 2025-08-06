@@ -1,0 +1,17 @@
+section img{
+    width: 300px;
+    max-width: 100%;
+}
+
+
+section{
+    margin: 80px auto;
+}
+
+.portfolio-list span{
+    margin: 0 1rem;
+}
+
+li{
+    margin:  1rem 0;
+}
