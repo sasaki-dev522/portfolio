@@ -15,3 +15,17 @@ section{
 li{
     margin:  1rem 0;
 }
+
+.warning{
+    color: red;
+    font-size: 0.85rem;
+}
+
+
+@media (min-width:1001px){
+
+.portfolio-list li{
+    padding-right: 160px;
+}
+
+}
