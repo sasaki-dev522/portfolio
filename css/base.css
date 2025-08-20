@@ -44,9 +44,9 @@ img{
 /* リセットCSSここまで */
 .background{
     background-image: url(../img/green3.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     background-position: center center;
     position: relative;
 }
