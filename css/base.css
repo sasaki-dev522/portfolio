@@ -54,7 +54,12 @@ img{
      padding: 32px;
 }
 
+h1{
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  font-style: normal;
 
+}
 .w-100{
      width: 100%;
 }

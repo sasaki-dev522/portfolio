@@ -8,8 +8,14 @@ section{
     margin: 80px auto;
 }
 
+.portfolio-list a{
+    display: flex;
+}
+
 .portfolio-list span{
     margin: 0 1rem;
+    display: inline;
+    font-size: 1.2rem;
 }
 
 li{
